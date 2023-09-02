@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:id= "@+id/tvName"
+        android:textSize= "30sp"
+        android:text= "Name"
+        android:layout_marginTop= "20dp"
+        android:layout_marginLeft= "20dp"
+        android:textColor= "#0e82f5"
+        />
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:id= "@+id/tvFName"
+        android:textSize= "30sp"
+        android:text= "Family Name"
+        android:layout_marginTop= "20dp"
+        android:layout_marginLeft= "20dp"
+        android:textColor= "#2A432B"
+        />
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:id= "@+id/tvAge"
+        android:textColor= "#6C1D05"
+        android:textSize= "30sp"
+        android:text= "0"
+        android:gravity= "right"
+        android:layout_marginRight= "20dp"
+        android:layout_marginLeft= "20dp"
+        android:layout_marginTop= "20dp"
+        />
+</LinearLayout>
